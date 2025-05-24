@@ -1,6 +1,6 @@
 # This script performs basic arithmetic operations on two numbers.
-number1= 10
-number2= 5
+number1 = 10
+number2 = 5
 # Performing addition, subtraction, and multiplication
 sum= number1+number2
 difference= number1 - number2
