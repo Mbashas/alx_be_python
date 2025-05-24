@@ -5,7 +5,7 @@ width = 5
 
 # Calculate the area of a rectangle 
 
-area= length*width 
+area = length*width 
 
 # print calculated are
 
