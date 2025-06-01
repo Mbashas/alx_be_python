@@ -7,15 +7,16 @@ operation = input("Choose the operation (+, - , * , /): ")
 
 match operation :
     case "*":
-        print(num1*num2)
+        print("The result is",str(num1*num2),".")
     case "+":
-        print(num1+num2)
+        print("The result is",str(num1+num2)+".")
 
     case "-":
-        print(num1-num2)
+        print("The result is",str(num1-num2)+".")
     case "/":
-        print(num1/num2)
-
-    case if num2 == 0:
-        print("Cannot divide by zero.")
-
+        if num2 !=0:
+            print("The result is",str(num1/num2)+".")
+        else:
+            print("Cannot divide by zero.")
+    case _:
+        print("Incorrect character/operation entered, only enter a number or +,*,-,/")
