@@ -9,10 +9,10 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_subtraction(self):
         #difference = SimpleCalculator.subtract(3,2)
         self.assertEqual(self.calc.subtract(3,2), 1)
-    def test_multiply(self):
+    def test_multiplication(self):
         #product =SimpleCalculator.multiply(2,3)
         self.assertEqual(self.calc.multiply(3,2),6)
-    def test_divide(self):
+    def test_division(self):
         #division = SimpleCalculator.divide(4,4)
         self.assertEqual(self.calc.divide(4,4),1)
     def test_zeroError(self):
