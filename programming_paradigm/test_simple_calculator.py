@@ -3,16 +3,16 @@ from simple_calculator import SimpleCalculator
 class TestSimpleCalculator(unittest.TestCase):
     def setUp(self):
         self.calc = SimpleCalculator()
-    def test_add(self):
+    def test_addition(self):
         #addition = SimpleCalculator.add(2,3)
         self.assertEqual(self.calc.add(3,2), 5 )
-    def test_sub(self):
+    def test_substaction(self):
         #difference = SimpleCalculator.subtract(3,2)
         self.assertEqual(self.calc.subtract(3,2), 1)
-    def test_product(self):
+    def test_multiply(self):
         #product =SimpleCalculator.multiply(2,3)
         self.assertEqual(self.calc.multiply(3,2),6)
-    def test_division(self):
+    def test_divide(self):
         #division = SimpleCalculator.divide(4,4)
         self.assertEqual(self.calc.divide(4,4),1)
     def test_zeroError(self):
