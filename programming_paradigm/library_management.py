@@ -46,3 +46,6 @@ class Library:
         available_books = [book for book in self._books if book.is_available()]
         for book in available_books:
             print(book)
+
+
+"""The error occurred because a file named .git/index.lock existed, which prevents Git from running commands to avoid repository corruption—this usually happens if a previous Git process crashed or was interrupted. The command rm -f ../.git/index.lock forcefully deletes that lock file, allowing Git operations to proceed again."""
